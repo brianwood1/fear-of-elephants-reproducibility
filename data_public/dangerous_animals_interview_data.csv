@@ -1,0 +1,17 @@
+"int_subject","sex","dangerous_animal_1","dangerous_animal_2","dangerous_animal_3","dangerous_animal_4","dangerous_animal_5","seen_elephant","seen_person_who_died_from_elephant"
+"Subject09","M","Lion","Leopard","Cheetah","Buffalo","Elephant",TRUE,TRUE
+"Subject10","M","Lion","Elephant","Leopard","Cheetah","Snake",TRUE,TRUE
+"Subject08","M","Snake","Lion","Leopard","Cheetah","Buffalo",FALSE,TRUE
+"Subject02","M","Snake","Lion","Leopard","Cheetah","Elephant",TRUE,FALSE
+"Subject16","M","Buffalo","Rhinoceros","Elephant","Lion","Leopard",TRUE,FALSE
+"Subject04","M","Snake","Lion","Elephant","Leopard","Cheetah",TRUE,TRUE
+"Subject12","M","Lion","Elephant","Leopard","Cheetah","Snake",TRUE,TRUE
+"Subject06","F","Buffalo","Lion","Leopard","Rhinoceros","Elephant",FALSE,FALSE
+"Subject15","F","Lion","Leopard","Cheetah","Snake","Buffalo",FALSE,FALSE
+"Subject13","F","Elephant","Lion","Buffalo","Snake","Snake",TRUE,TRUE
+"Subject14","F","Elephant","Lion","Leopard","Snake","Snake",FALSE,FALSE
+"Subject11","F","Elephant","Lion","Buffalo","Leopard","Snake",TRUE,TRUE
+"Subject01","F","Elephant","Lion","Leopard","Buffalo","Cheetah",TRUE,TRUE
+"Subject07","F","Buffalo","Lion","Elephant","Snake","Snake",TRUE,FALSE
+"Subject03","F","Elephant","Leopard","Lion","Snake","Snake",TRUE,TRUE
+"Subject05","F","Snake","Elephant","Lion","Leopard","Buffalo",FALSE,FALSE

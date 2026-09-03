@@ -1,0 +1,791 @@
+"nocturnal","elephant_zone","camera_id","species","diurnal"
+TRUE,TRUE,"Site 12","Bush duiker",FALSE
+FALSE,FALSE,"Site 13","Bush duiker",TRUE
+TRUE,FALSE,"Site 13","Bush duiker",FALSE
+FALSE,FALSE,"Site 13","Bush duiker",TRUE
+FALSE,FALSE,"Site 13","Bush duiker",TRUE
+TRUE,FALSE,"Site 13","Bush duiker",FALSE
+FALSE,FALSE,"Site 15","Bush duiker",TRUE
+FALSE,TRUE,"Site 16","Bush duiker",TRUE
+FALSE,TRUE,"Site 16","Bush duiker",TRUE
+FALSE,TRUE,"Site 16","Bush duiker",TRUE
+TRUE,TRUE,"Site 16","Bush duiker",FALSE
+TRUE,FALSE,"Site 17","Bush duiker",FALSE
+FALSE,FALSE,"Site 18","Bush duiker",TRUE
+FALSE,FALSE,"Site 19","Bush duiker",TRUE
+FALSE,FALSE,"Site 3","Bush duiker",TRUE
+FALSE,FALSE,"Site 6","Bush duiker",TRUE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+TRUE,TRUE,"Site 11","Bushbuck",FALSE
+TRUE,TRUE,"Site 11","Bushbuck",FALSE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+FALSE,TRUE,"Site 11","Bushbuck",TRUE
+TRUE,TRUE,"Site 12","Bushbuck",FALSE
+TRUE,TRUE,"Site 12","Bushbuck",FALSE
+TRUE,TRUE,"Site 12","Bushbuck",FALSE
+TRUE,TRUE,"Site 12","Bushbuck",FALSE
+TRUE,TRUE,"Site 12","Bushbuck",FALSE
+TRUE,TRUE,"Site 12","Bushbuck",FALSE
+FALSE,TRUE,"Site 12","Bushbuck",TRUE
+FALSE,FALSE,"Site 13","Bushbuck",TRUE
+FALSE,FALSE,"Site 14","Bushbuck",TRUE
+TRUE,FALSE,"Site 15","Bushbuck",FALSE
+TRUE,FALSE,"Site 18","Bushbuck",FALSE
+TRUE,FALSE,"Site 18","Bushbuck",FALSE
+FALSE,FALSE,"Site 18","Bushbuck",TRUE
+FALSE,FALSE,"Site 18","Bushbuck",TRUE
+TRUE,FALSE,"Site 18","Bushbuck",FALSE
+FALSE,FALSE,"Site 18","Bushbuck",TRUE
+TRUE,FALSE,"Site 19","Bushbuck",FALSE
+TRUE,FALSE,"Site 19","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+FALSE,FALSE,"Site 20","Bushbuck",TRUE
+FALSE,FALSE,"Site 20","Bushbuck",TRUE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 20","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+TRUE,FALSE,"Site 6","Bushbuck",FALSE
+FALSE,FALSE,"Site 7","Bushbuck",TRUE
+TRUE,TRUE,"Site 11","Bushpig",FALSE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+FALSE,TRUE,"Site 12","Bushpig",TRUE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+TRUE,TRUE,"Site 12","Bushpig",FALSE
+TRUE,FALSE,"Site 15","Bushpig",FALSE
+TRUE,FALSE,"Site 15","Bushpig",FALSE
+TRUE,FALSE,"Site 15","Bushpig",FALSE
+TRUE,FALSE,"Site 15","Bushpig",FALSE
+FALSE,TRUE,"Site 16","Bushpig",TRUE
+TRUE,FALSE,"Site 17","Bushpig",FALSE
+TRUE,FALSE,"Site 2","Bushpig",FALSE
+FALSE,FALSE,"Site 3","Bushpig",TRUE
+TRUE,FALSE,"Site 4","Bushpig",FALSE
+TRUE,FALSE,"Site 6","Bushpig",FALSE
+TRUE,FALSE,"Site 6","Bushpig",FALSE
+FALSE,FALSE,"Site 7","Bushpig",TRUE
+FALSE,FALSE,"Site 7","Bushpig",TRUE
+TRUE,FALSE,"Site 7","Bushpig",FALSE
+TRUE,FALSE,"Site 7","Bushpig",FALSE
+TRUE,FALSE,"Site 8","Bushpig",FALSE
+TRUE,FALSE,"Site 9","Bushpig",FALSE
+TRUE,FALSE,"Site 1","Eland",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+FALSE,TRUE,"Site 12","Giraffe",TRUE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 12","Giraffe",FALSE
+TRUE,TRUE,"Site 16","Giraffe",FALSE
+FALSE,TRUE,"Site 16","Giraffe",TRUE
+FALSE,TRUE,"Site 16","Giraffe",TRUE
+TRUE,TRUE,"Site 16","Giraffe",FALSE
+TRUE,FALSE,"Site 8","Giraffe",FALSE
+FALSE,TRUE,"Site 11","Greater kudu",TRUE
+FALSE,TRUE,"Site 11","Greater kudu",TRUE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+FALSE,TRUE,"Site 12","Greater kudu",TRUE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,TRUE,"Site 12","Greater kudu",FALSE
+TRUE,FALSE,"Site 14","Greater kudu",FALSE
+TRUE,FALSE,"Site 15","Greater kudu",FALSE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+TRUE,TRUE,"Site 16","Greater kudu",FALSE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+TRUE,TRUE,"Site 16","Greater kudu",FALSE
+TRUE,TRUE,"Site 16","Greater kudu",FALSE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+TRUE,TRUE,"Site 16","Greater kudu",FALSE
+TRUE,TRUE,"Site 16","Greater kudu",FALSE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+TRUE,TRUE,"Site 16","Greater kudu",FALSE
+FALSE,TRUE,"Site 16","Greater kudu",TRUE
+TRUE,FALSE,"Site 17","Greater kudu",FALSE
+TRUE,FALSE,"Site 17","Greater kudu",FALSE
+TRUE,FALSE,"Site 18","Greater kudu",FALSE
+TRUE,FALSE,"Site 18","Greater kudu",FALSE
+FALSE,FALSE,"Site 18","Greater kudu",TRUE
+TRUE,FALSE,"Site 18","Greater kudu",FALSE
+TRUE,FALSE,"Site 18","Greater kudu",FALSE
+FALSE,FALSE,"Site 18","Greater kudu",TRUE
+FALSE,FALSE,"Site 18","Greater kudu",TRUE
+FALSE,FALSE,"Site 18","Greater kudu",TRUE
+FALSE,FALSE,"Site 18","Greater kudu",TRUE
+TRUE,FALSE,"Site 18","Greater kudu",FALSE
+TRUE,FALSE,"Site 18","Greater kudu",FALSE
+TRUE,FALSE,"Site 19","Greater kudu",FALSE
+FALSE,FALSE,"Site 19","Greater kudu",TRUE
+TRUE,FALSE,"Site 19","Greater kudu",FALSE
+FALSE,FALSE,"Site 2","Greater kudu",TRUE
+TRUE,FALSE,"Site 20","Greater kudu",FALSE
+FALSE,FALSE,"Site 20","Greater kudu",TRUE
+TRUE,FALSE,"Site 20","Greater kudu",FALSE
+TRUE,FALSE,"Site 20","Greater kudu",FALSE
+TRUE,FALSE,"Site 20","Greater kudu",FALSE
+TRUE,FALSE,"Site 20","Greater kudu",FALSE
+TRUE,FALSE,"Site 20","Greater kudu",FALSE
+TRUE,FALSE,"Site 3","Greater kudu",FALSE
+TRUE,FALSE,"Site 3","Greater kudu",FALSE
+TRUE,FALSE,"Site 3","Greater kudu",FALSE
+FALSE,FALSE,"Site 3","Greater kudu",TRUE
+FALSE,FALSE,"Site 3","Greater kudu",TRUE
+TRUE,FALSE,"Site 3","Greater kudu",FALSE
+TRUE,FALSE,"Site 3","Greater kudu",FALSE
+FALSE,FALSE,"Site 3","Greater kudu",TRUE
+TRUE,FALSE,"Site 3","Greater kudu",FALSE
+FALSE,FALSE,"Site 3","Greater kudu",TRUE
+TRUE,FALSE,"Site 6","Greater kudu",FALSE
+FALSE,FALSE,"Site 6","Greater kudu",TRUE
+TRUE,FALSE,"Site 6","Greater kudu",FALSE
+FALSE,FALSE,"Site 6","Greater kudu",TRUE
+FALSE,FALSE,"Site 8","Greater kudu",TRUE
+TRUE,FALSE,"Site 8","Greater kudu",FALSE
+TRUE,FALSE,"Site 8","Greater kudu",FALSE
+TRUE,FALSE,"Site 8","Greater kudu",FALSE
+TRUE,FALSE,"Site 8","Greater kudu",FALSE
+TRUE,FALSE,"Site 8","Greater kudu",FALSE
+FALSE,FALSE,"Site 9","Greater kudu",TRUE
+FALSE,FALSE,"Site 9","Greater kudu",TRUE
+TRUE,FALSE,"Site 1","Impala",FALSE
+FALSE,FALSE,"Site 1","Impala",TRUE
+TRUE,FALSE,"Site 1","Impala",FALSE
+TRUE,FALSE,"Site 1","Impala",FALSE
+FALSE,FALSE,"Site 1","Impala",TRUE
+TRUE,FALSE,"Site 1","Impala",FALSE
+FALSE,FALSE,"Site 1","Impala",TRUE
+TRUE,TRUE,"Site 12","Impala",FALSE
+TRUE,TRUE,"Site 12","Impala",FALSE
+FALSE,TRUE,"Site 12","Impala",TRUE
+TRUE,TRUE,"Site 12","Impala",FALSE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+TRUE,TRUE,"Site 12","Impala",FALSE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,TRUE,"Site 12","Impala",TRUE
+FALSE,FALSE,"Site 13","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+TRUE,FALSE,"Site 15","Impala",FALSE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+FALSE,FALSE,"Site 15","Impala",TRUE
+TRUE,FALSE,"Site 15","Impala",FALSE
+TRUE,FALSE,"Site 15","Impala",FALSE
+TRUE,FALSE,"Site 15","Impala",FALSE
+TRUE,TRUE,"Site 16","Impala",FALSE
+FALSE,TRUE,"Site 16","Impala",TRUE
+FALSE,TRUE,"Site 16","Impala",TRUE
+FALSE,TRUE,"Site 16","Impala",TRUE
+FALSE,TRUE,"Site 16","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 2","Impala",TRUE
+FALSE,FALSE,"Site 3","Impala",TRUE
+TRUE,FALSE,"Site 3","Impala",FALSE
+TRUE,FALSE,"Site 5","Impala",FALSE
+FALSE,FALSE,"Site 5","Impala",TRUE
+FALSE,FALSE,"Site 5","Impala",TRUE
+FALSE,FALSE,"Site 5","Impala",TRUE
+TRUE,FALSE,"Site 5","Impala",FALSE
+FALSE,FALSE,"Site 5","Impala",TRUE
+FALSE,FALSE,"Site 5","Impala",TRUE
+FALSE,FALSE,"Site 5","Impala",TRUE
+FALSE,FALSE,"Site 6","Impala",TRUE
+FALSE,FALSE,"Site 6","Impala",TRUE
+FALSE,FALSE,"Site 6","Impala",TRUE
+FALSE,FALSE,"Site 6","Impala",TRUE
+FALSE,FALSE,"Site 6","Impala",TRUE
+FALSE,FALSE,"Site 6","Impala",TRUE
+TRUE,FALSE,"Site 6","Impala",FALSE
+TRUE,FALSE,"Site 6","Impala",FALSE
+TRUE,FALSE,"Site 6","Impala",FALSE
+FALSE,FALSE,"Site 6","Impala",TRUE
+TRUE,FALSE,"Site 8","Impala",FALSE
+FALSE,FALSE,"Site 8","Impala",TRUE
+TRUE,FALSE,"Site 8","Impala",FALSE
+FALSE,FALSE,"Site 8","Impala",TRUE
+TRUE,FALSE,"Site 8","Impala",FALSE
+FALSE,FALSE,"Site 9","Impala",TRUE
+FALSE,FALSE,"Site 9","Impala",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 11","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 11","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 12","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 13","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 13","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 13","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 13","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 13","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 14","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 14","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 15","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 15","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 15","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 15","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 15","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 15","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 15","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,TRUE,"Site 16","Kirk's dik-dik",FALSE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 16","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 17","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 17","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 18","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 18","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 18","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 19","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 19","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 2","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 2","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 2","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 2","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 2","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 2","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 2","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 3","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 3","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 3","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 3","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 3","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 3","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 3","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 3","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 3","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 4","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 4","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 4","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 5","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 5","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 5","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 6","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 6","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 8","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+TRUE,FALSE,"Site 8","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 9","Kirk's dik-dik",TRUE
+TRUE,FALSE,"Site 9","Kirk's dik-dik",FALSE
+FALSE,FALSE,"Site 9","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 9","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 9","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 9","Kirk's dik-dik",TRUE
+FALSE,FALSE,"Site 9","Kirk's dik-dik",TRUE
+FALSE,TRUE,"Site 12","Klipspringer",TRUE
+FALSE,TRUE,"Site 12","Klipspringer",TRUE
+FALSE,TRUE,"Site 12","Klipspringer",TRUE
+FALSE,TRUE,"Site 12","Klipspringer",TRUE
+TRUE,FALSE,"Site 20","Klipspringer",FALSE
+FALSE,FALSE,"Site 20","Klipspringer",TRUE
+FALSE,FALSE,"Site 4","Klipspringer",TRUE
+FALSE,FALSE,"Site 4","Klipspringer",TRUE
+FALSE,FALSE,"Site 4","Klipspringer",TRUE
+FALSE,FALSE,"Site 4","Klipspringer",TRUE
+FALSE,FALSE,"Site 4","Klipspringer",TRUE
+FALSE,FALSE,"Site 4","Klipspringer",TRUE
+TRUE,FALSE,"Site 8","Plains zebra",FALSE
+FALSE,TRUE,"Site 12","Warthog",TRUE
+FALSE,TRUE,"Site 12","Warthog",TRUE
+FALSE,TRUE,"Site 12","Warthog",TRUE
+FALSE,TRUE,"Site 12","Warthog",TRUE
+TRUE,TRUE,"Site 12","Warthog",FALSE
+TRUE,TRUE,"Site 12","Warthog",FALSE
+FALSE,TRUE,"Site 12","Warthog",TRUE
+TRUE,FALSE,"Site 15","Warthog",FALSE
