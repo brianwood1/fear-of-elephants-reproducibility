@@ -76,20 +76,27 @@ save_figures <- function(data_location, figures_location, max_figure_dimensions)
   diurnality_model_30_min_filter <- readRDS(paste0(fit_models_location, "model_7.rds"))
 
   #this is figure 4
-  plot_and_save_figure_4 <- plot_and_save_empirical_and_model_predicted_diurnality(figures_location = figures_location,
+  # NHB submission change: now calls the _NHB variant (adds Panel C, the posterior
+  # difference distribution); see the commented-out original
+  # plot_and_save_empirical_and_model_predicted_diurnality() definition below.
+  plot_and_save_figure_4 <- plot_and_save_empirical_and_model_predicted_diurnality_NHB(figures_location = figures_location,
                                                          data=diurnality_data_30_min_filter,
                                                          model=diurnality_model_30_min_filter,
                                                          ci_level=ci_level,
                                                          figure_name="fig_4_empirical_and_modeled_diurnality_30_min_time_filter")
-  
-  
+
+
   #Figure 5
-  plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions(figure_name="Figure_5_RAI",
-                                                                                 data_location = data_location, 
+  # NHB submission change: now calls the _NHB variant (adds Panel C, percent change in RAI
+  # under Model 10); see the commented-out original
+  # plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions()
+  # definition below.
+  plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions_NHB(figure_name="Figure_5_RAI",
+                                                                                 data_location = data_location,
                                                                                  fit_models_location = fit_models_location,
-                                                                                 figures_location=figures_location, 
-                                                                                 width_in=6, height_in=3, 
-                                                                                 show_outliers=TRUE)
+                                                                                 figures_location=figures_location,
+                                                                                 width_in=9, height_in=3,
+                                                                                 show_outliers=FALSE)
   
   #this is figure S1
   save_figure_3_and_figure_S1_patchwork(data_location, figures_location, sim_method="bcrw", run_all=FALSE)
@@ -1082,6 +1089,103 @@ posterior_predict_elephant_presence_RAI_model_averaging_zi_species_varying <- fu
 }
 
 
+# Percent change in average detections per 100 nights (Elephant vs No Elephant),
+# for one model's own posterior only (no stacking), averaged across stations within each
+# posterior draw before taking the ratio. Shared building block behind each percent-change
+# density panel below, and behind get_plot_RAI_pct_diff_model_10() (Figure 5 Panel C).
+get_RAI_pct_diff_draws <- function(fit, data_location) {
+  newdata <- build_RAI_station_prediction_grid(data_location)
+  elephant_cols    <- which(newdata$Elephant_Presence == "Elephant")
+  no_elephant_cols <- which(newdata$Elephant_Presence == "No elephant")
+
+  epred <- posterior_epred(fit, newdata = newdata, re_formula = NA)
+  (rowMeans(epred[, elephant_cols]) / rowMeans(epred[, no_elephant_cols]) - 1) * 100
+}
+
+# Panel builder, matching plot_and_save_fig_S3_RAI_diff_distribution
+make_density_panel_pct_diff <- function(diff_draws, x_label, x_limits, x_breaks, x_break_labels) {
+
+  mean_diff <- mean(diff_draws)
+  dens      <- density(diff_draws, n = 2048)
+  dens_df   <- data.frame(x = dens$x, y = dens$y)
+  dens_df <- dens_df[dens_df$x >= x_limits[1] & dens_df$x <= x_limits[2], ]
+  dens_pos <- dens_df %>% filter(x >= 0)
+  dens_neg <- dens_df %>% filter(x <= 0)
+  dens_pos <- bind_rows(data.frame(x = 0, y = 0), dens_pos, data.frame(x = x_limits[2], y = 0))
+  dens_neg <- bind_rows(data.frame(x = x_limits[1], y = 0), dens_neg, data.frame(x = 0, y = 0))
+
+  ggplot() +
+
+    geom_polygon(
+      data  = dens_neg,
+      aes(x = x, y = y),
+      fill  = "#B35A38",
+      alpha = 0.5,
+      color = NA
+    ) +
+
+    geom_polygon(
+      data  = dens_pos,
+      aes(x = x, y = y),
+      fill  = "#31688E",
+      alpha = 0.5,
+      color = NA
+    ) +
+
+    geom_line(
+      data      = dens_df,
+      aes(x = x, y = y),
+      color     = "#222222",
+      linewidth = 0.35
+    ) +
+
+    geom_vline(xintercept = 0, linetype = "dashed", color = "#444444", linewidth = 0.35) +
+    geom_vline(xintercept = mean_diff, linetype = "solid", color = "black", linewidth = 0.4) +
+
+    scale_x_continuous(
+      name   = x_label,
+      breaks = x_breaks,
+      labels = x_break_labels,
+      limits = x_limits
+    ) +
+    scale_y_continuous(
+      name   = "Posterior density",
+      expand = expansion(mult = c(0, 0.05))
+    ) +
+
+    theme_classic(base_size = 7, base_family = "Helvetica") +
+    theme(
+      axis.title  = element_text(size = 7, face = "plain", color = "black"),
+      axis.text   = element_text(size = 6, color = "black"),
+      axis.line   = element_line(linewidth = 0.3, color = "black"),
+      axis.ticks  = element_line(linewidth = 0.3, color = "black"),
+      plot.margin = margin(5, 5, 5, 5, "pt")
+    )
+}
+
+# Figure 5 Panel C: percent change in RAI (Elephant vs No Elephant) under Model 10 alone
+# (Elephant Presence, Distance from Camp, Tree Canopy Cover). Same x-axis window/breaks as
+# plot_and_save_fig_S3_RAI_percent_diff_distribution() by default so the panel matches the
+# version shown there.
+get_plot_RAI_pct_diff_model_10 <- function(data_location, fit_models_location,
+                                            x_limits = c(-150, 1000),
+                                            x_breaks = seq(-200, 1000, by = 100),
+                                            x_break_labels = NULL) {
+
+  if (is.null(x_break_labels)) {
+    x_break_labels <- ifelse(x_breaks %in% c(-200, 0, 200, 400, 600, 800), x_breaks, "")
+  }
+
+  fit_m10 <- readRDS(paste0(fit_models_location, "model_10.rds"))
+  pct_diff_m10 <- get_RAI_pct_diff_draws(fit_m10, data_location)
+
+  make_density_panel_pct_diff(
+    pct_diff_m10,
+    "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model 10)",
+    x_limits, x_breaks, x_break_labels
+  )
+}
+
 plot_and_save_fig_S3_RAI_percent_diff_distribution <- function(fit_models_location,
                                                                                   tables_location,
                                                                                   data_location,
@@ -1103,93 +1207,21 @@ plot_and_save_fig_S3_RAI_percent_diff_distribution <- function(fit_models_locati
   )
   pct_diff_model_averaged <- (model_averaging_results$draws$ratio - 1) * 100
 
-  # Panels A and B: each model's own posterior only (no stacking) 
+  # Panels A and B: each model's own posterior only (no stacking)
   fit_m8  <- readRDS(paste0(fit_models_location, "model_8.rds"))
   fit_m10 <- readRDS(paste0(fit_models_location, "model_10.rds"))
 
-  newdata <- build_RAI_station_prediction_grid(data_location)
-  elephant_cols    <- which(newdata$Elephant_Presence == "Elephant")
-  no_elephant_cols <- which(newdata$Elephant_Presence == "No elephant")
+  pct_diff_m8  <- get_RAI_pct_diff_draws(fit_m8,  data_location)
+  pct_diff_m10 <- get_RAI_pct_diff_draws(fit_m10, data_location)
 
-  # Average across stations within each posterior draw first
-  # then take the elephant-presence percent change for that single model's own posterior.
-  get_pct_diff_draws <- function(fit) {
-    epred <- posterior_epred(fit, newdata = newdata, re_formula = NA)
-    (rowMeans(epred[, elephant_cols]) / rowMeans(epred[, no_elephant_cols]) - 1) * 100
-  }
-
-  pct_diff_m8  <- get_pct_diff_draws(fit_m8)
-  pct_diff_m10 <- get_pct_diff_draws(fit_m10)
-
-  # Shared x-axis range/breaks so the three panels are visually comparable 
+  # Shared x-axis range/breaks so the three panels are visually comparable
   x_limits       <- c(-150, 1000)
   x_breaks       <- seq(-200, 1000, by = 100)
   x_break_labels <- ifelse(x_breaks %in% c(-200, 0, 200, 400, 600, 800), x_breaks, "")
 
-  # ---- Panel builder, matching plot_and_save_fig_S3_RAI_diff_distribution ----
-  make_density_panel <- function(diff_draws, x_label) {
-
-    mean_diff <- mean(diff_draws)
-    dens      <- density(diff_draws, n = 2048)
-    dens_df   <- data.frame(x = dens$x, y = dens$y)
-    dens_df <- dens_df[dens_df$x >= x_limits[1] & dens_df$x <= x_limits[2], ]
-    dens_pos <- dens_df %>% filter(x >= 0)
-    dens_neg <- dens_df %>% filter(x <= 0)
-    dens_pos <- bind_rows(data.frame(x = 0, y = 0), dens_pos, data.frame(x = x_limits[2], y = 0))
-    dens_neg <- bind_rows(data.frame(x = x_limits[1], y = 0), dens_neg, data.frame(x = 0, y = 0))
-
-    ggplot() +
-
-      geom_polygon(
-        data  = dens_neg,
-        aes(x = x, y = y),
-        fill  = "#B35A38",
-        alpha = 0.5,
-        color = NA
-      ) +
-
-      geom_polygon(
-        data  = dens_pos,
-        aes(x = x, y = y),
-        fill  = "#31688E",
-        alpha = 0.5,
-        color = NA
-      ) +
-
-      geom_line(
-        data      = dens_df,
-        aes(x = x, y = y),
-        color     = "#222222",
-        linewidth = 0.35
-      ) +
-
-      geom_vline(xintercept = 0, linetype = "dashed", color = "#444444", linewidth = 0.35) +
-      geom_vline(xintercept = mean_diff, linetype = "solid", color = "black", linewidth = 0.4) +
-
-      scale_x_continuous(
-        name   = x_label,
-        breaks = x_breaks,
-        labels = x_break_labels,
-        limits = x_limits
-      ) +
-      scale_y_continuous(
-        name   = "Posterior density",
-        expand = expansion(mult = c(0, 0.05))
-      ) +
-
-      theme_classic(base_size = 7, base_family = "Helvetica") +
-      theme(
-        axis.title  = element_text(size = 7, face = "plain", color = "black"),
-        axis.text   = element_text(size = 6, color = "black"),
-        axis.line   = element_line(linewidth = 0.3, color = "black"),
-        axis.ticks  = element_line(linewidth = 0.3, color = "black"),
-        plot.margin = margin(5, 5, 5, 5, "pt")
-      )
-  }
-
-  p_A <- make_density_panel(pct_diff_m8, "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model 8)")
-  p_B <- make_density_panel(pct_diff_m10, "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model 10)")
-  p_C <- make_density_panel(pct_diff_model_averaged, "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model Averaged)")
+  p_A <- make_density_panel_pct_diff(pct_diff_m8,             "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model 8)",             x_limits, x_breaks, x_break_labels)
+  p_B <- make_density_panel_pct_diff(pct_diff_m10,            "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model 10)",            x_limits, x_breaks, x_break_labels)
+  p_C <- make_density_panel_pct_diff(pct_diff_model_averaged, "% Change in Average Detections per 100 nights:\nElephant vs No Elephant (Model Averaged)", x_limits, x_breaks, x_break_labels)
 
   combined_plot <- p_A + p_B + p_C +
     plot_layout(nrow = 1) +
@@ -1258,34 +1290,70 @@ save_caption_for_figure_S3 <- function(fit_models_location,
 }
 
 
-plot_and_save_empirical_and_model_predicted_diurnality <- function(figures_location, data, model, ci_level, figure_name) {
-  
+# NHB submission change: Figure 4 gained a third panel (posterior difference distribution,
+# also used standalone as Supplementary Figure S2). The original two-panel version is kept
+# below, commented out, since other callers (e.g. the Science-formatted variant) still use
+# the two-panel layout. save_figures() now calls
+# plot_and_save_empirical_and_model_predicted_diurnality_NHB() instead of this one.
+# plot_and_save_empirical_and_model_predicted_diurnality <- function(figures_location, data, model, ci_level, figure_name) {
+#
+#   p_empirical <- get_plot_empirical_diurnality_by_species_and_elephant_zone(
+#     data  = data,
+#     figures_location = figures_location
+#   )
+#
+#   p_model <- get_plot_posterior_diurnality_predictions(
+#     model=model,
+#     figures_location = figures_location,
+#     ci_level = ci_level
+#   )
+#
+#   library(patchwork)
+#
+#   combined_plot <- p_empirical + p_model +
+#     plot_layout(widths = c(2, 1)) +
+#     plot_annotation(tag_levels = "A")
+#
+#   ggsave(
+#     filename    = paste0(figures_location, paste0(figure_name, ".tiff")),
+#     plot        = combined_plot,
+#     compression = "lzw",
+#     device      = "tiff",
+#     width       = 6, height = 3, dpi = 300
+#   )
+# }
+
+plot_and_save_empirical_and_model_predicted_diurnality_NHB <- function(figures_location, data, model, ci_level, figure_name) {
+
   p_empirical <- get_plot_empirical_diurnality_by_species_and_elephant_zone(
     data  = data,
     figures_location = figures_location
   )
-  
+
   p_model <- get_plot_posterior_diurnality_predictions(
     model=model,
     figures_location = figures_location,
     ci_level = ci_level
   )
-  
+
+  # Panel C: posterior difference distribution, also used standalone as Supplementary Figure S2
+  p_diff <- get_plot_diurnality_diff_distribution(model, ci_level)
+
   library(patchwork)
-  
-  combined_plot <- p_empirical + p_model +
-    plot_layout(widths = c(2, 1)) +
-    plot_annotation(tag_levels = "A")
-  
+
+  combined_plot <- p_empirical + p_model + p_diff +
+    plot_layout(widths = c(2, 1, 1.3)) +
+    plot_annotation(tag_levels = "A") &
+    theme(plot.tag = element_text(face = "bold"))
+
   ggsave(
     filename    = paste0(figures_location, paste0(figure_name, ".tiff")),
     plot        = combined_plot,
     compression = "lzw",
     device      = "tiff",
-    width       = 6, height = 3, dpi = 300
+    width       = 9, height = 3, dpi = 300
   )
 }
-
 
 plot_and_save_empirical_and_model_predicted_diurnality_for_science <- function(figures_location, data, model, ci_level, figure_name) {
 
@@ -1507,7 +1575,10 @@ get_plot_posterior_diurnality_predictions <- function(model, figures_location, c
 }
 
 
-plot_and_save_supp_figure_of_diurnality_diff_distribution <- function(figures_location, model, figure_name) {
+# Builds the posterior difference-in-diurnality density panel. Used standalone as
+# Supplementary Figure S2 (plot_and_save_supp_figure_of_diurnality_diff_distribution() below)
+# and as Panel C of Figure 4 (plot_and_save_empirical_and_model_predicted_diurnality_NHB()).
+get_plot_diurnality_diff_distribution <- function(model, ci_level) {
 
   library(brms)
   library(tidybayes)
@@ -1532,7 +1603,7 @@ plot_and_save_supp_figure_of_diurnality_diff_distribution <- function(figures_lo
     allow_new_levels = FALSE
   )
 
-  # Average P(diurnal) across species within each posterior draw first. This marginalizes over the species-level varying effects, 
+  # Average P(diurnal) across species within each posterior draw first. This marginalizes over the species-level varying effects,
   # then take the elephant-zone difference for that draw.
   diff_draws <- posterior_epred %>%
     group_by(elephant_zone, .draw) %>%
@@ -1593,6 +1664,13 @@ plot_and_save_supp_figure_of_diurnality_diff_distribution <- function(figures_lo
       plot.margin = margin(5, 5, 5, 5, "pt")
     )
 
+  return(p)
+}
+
+plot_and_save_supp_figure_of_diurnality_diff_distribution <- function(figures_location, model, figure_name) {
+
+  p <- get_plot_diurnality_diff_distribution(model, ci_level)
+
   ggsave(
     filename = paste0(figures_location, figure_name, ".pdf"),
     plot     = p,
@@ -1648,21 +1726,50 @@ calc_and_save_summary_table_diurnality_analysis <- function(data_location, table
 }
 
 
-plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions <- function(figure_name, data_location, fit_models_location, 
-                                                                                           figures_location, 
-                                                                                           width_in, height_in, 
+# NHB submission change: Figure 5 gained a third panel (percent change in RAI under Model
+# 10, also used standalone as Supplementary Figure S3 Panel B). The original two-panel
+# version is kept below, commented out, since other callers (e.g. the Science-formatted
+# variant) still use the two-panel layout. save_figures() now calls
+# plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions_NHB()
+# instead of this one.
+# plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions <- function(figure_name, data_location, fit_models_location,
+#                                                                                            figures_location,
+#                                                                                            width_in, height_in,
+#                                                                                            show_outliers)
+# {
+#   p_empirical <- get_plot_empirical_RAI_by_species_and_elephant_zone(data_location, show_outliers = show_outliers)
+#   p_model_predictions <- get_plot_elephant_effects_m10(data_location, fit_models_location, ci_level)
+#
+#   library(patchwork)
+#   rai_combined_plot <- (p_empirical + labs(tag = 'A')) | (p_model_predictions + labs(tag = 'B'))
+#
+#   rai_combined_plot<- rai_combined_plot + plot_layout(widths = c(2, 1))
+#
+#   ggsave(filename = file.path(figures_location, paste0(figure_name, ".tiff")), plot = rai_combined_plot, width = width_in, height = height_in, units = "in", dpi = 300, compression = "lzw", device = "tiff")
+#
+#
+# }
+
+plot_and_save_RAI_by_species_and_elephant_zone_empirical_and_model_predictions_NHB <- function(figure_name, data_location, fit_models_location,
+                                                                                           figures_location,
+                                                                                           width_in, height_in,
                                                                                            show_outliers)
 {
   p_empirical <- get_plot_empirical_RAI_by_species_and_elephant_zone(data_location, show_outliers = show_outliers)
   p_model_predictions <- get_plot_elephant_effects_m10(data_location, fit_models_location, ci_level)
-  
-  library(patchwork)
-  rai_combined_plot <- (p_empirical + labs(tag = 'A')) | (p_model_predictions + labs(tag = 'B'))
-  
-  rai_combined_plot<- rai_combined_plot + plot_layout(widths = c(2, 1))
-  
-  ggsave(filename = file.path(figures_location, paste0(figure_name, ".tiff")), plot = rai_combined_plot, width = width_in, height = height_in, units = "in", dpi = 300, compression = "lzw", device = "tiff")
 
+  # Panel C: percent change in RAI under Model 10, also used standalone as Supplementary
+  # Figure S3 Panel B
+  p_pct_diff <- get_plot_RAI_pct_diff_model_10(data_location, fit_models_location)
+
+  library(patchwork)
+  rai_combined_plot <- (p_empirical + labs(tag = 'A')) | (p_model_predictions + labs(tag = 'B')) | (p_pct_diff + labs(tag = 'C'))
+
+  # Apply the layout, giving Panel C (longer axis title) a bit more width
+  rai_combined_plot<- rai_combined_plot + plot_layout(widths = c(2, 1, 1.3)) &
+    theme(plot.tag = element_text(face = "bold"))
+
+  ggsave(filename = file.path(figures_location, paste0(figure_name, ".tiff")), plot = rai_combined_plot, width = width_in, height = height_in, units = "in", dpi = 300, compression = "lzw", device = "tiff")
 
 }
 
